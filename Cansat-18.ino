@@ -1,3 +1,7 @@
+//Adafruit and TinyGPS libraries are available online. You need to manually install them or else the code will throw errors
+//Adafruit: https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/arduino-test
+//TinyGPS : http://arduiniana.org/libraries/tinygpsplus/
+//Simply download the Zip file in both cases. In arduino IDE, go to Sketch -> Include Library ->Add .Zip Library and select the zip file.
 #include<Wire.h>
 #include<SPI.h>
 #include <Adafruit_BMP280.h>
