@@ -142,7 +142,7 @@ void VoltRead()
   //TO BE FILLED BY ADITYA
   //Read value from ADC port
   //Convert to voltage
-  //Use voltage divider equation to get the voltage voltage
+  //Use voltage divider equation to get the battery voltage
   //Update the global variable Volt
 }
 
@@ -211,7 +211,7 @@ void Make_Telemetry_Pkt()
 
 //--------------------Send_Telemetry_Pkt--------------------
 //TO BE FILLED BY HARISH AND PRANEETH
-//Function to make a string packet with all the telemetry variables
+//Function to transmit Telemetry_Pkt via Xbee
 //Input :  None
 //Return:  None
 void Send_Telemetry_Pkt()
